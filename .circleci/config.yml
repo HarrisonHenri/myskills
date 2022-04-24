@@ -16,9 +16,11 @@ jobs:
       name: node/default
     steps:
       - checkout
-      - node/with-cache:
+      - android/with-cache:
           steps:
             - run: bundle install
+      - node/with-cache:
+          steps:
             - run: yarn install
             - run: yarn semantic-release
 
