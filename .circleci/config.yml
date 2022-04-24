@@ -22,12 +22,12 @@ jobs:
             - run: yarn semantic-release
   zumba:
     executor:
-      name: android/default
+      name: android/android
     steps:
       - checkout
-      - android/with-cache:
-          steps:
-            - run: bundle install
+      - run:
+          name: Install bundle
+          command: bundle install
 
 workflows:
   test-build-and-publish:
