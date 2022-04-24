@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  android: circleci/android@0.2.0
-
 references:
   production: &production
     filters:
@@ -11,6 +8,7 @@ references:
           - master
 
 orbs:
+  android: circleci/android@0.2.0
   node: circleci/node@1.1.6
 jobs:
   test-build-and-publish:
