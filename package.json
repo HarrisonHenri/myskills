@@ -1,15 +1,17 @@
 {
   "name": "myskills",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "yarn semantic-release"
   },
   "dependencies": {
+    "@semantic-release/git": "^10.0.1",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "semantic-release": "^19.0.2"
