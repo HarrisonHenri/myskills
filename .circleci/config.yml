@@ -39,5 +39,5 @@ workflows:
           <<: *production
       - test-build-and-publish:
           <<: *production
-        - requires:
-          - zumba
+          requires:
+            - zumba
