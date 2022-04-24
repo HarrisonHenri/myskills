@@ -1,0 +1,35 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+package = load_json(json_path: "../package.json")
+
+platform :android do
+  private_lane :inc_ver_and do
+    increment_version_code(
+      gradle_file_path: "./app/build.gradle",
+    )
+
+    increment_version_name(
+      gradle_file_path: "./app/build.gradle",
+      version_name: package['version']
+    )
+  end
+
+  desc 'Bump build numbers, and set the version to match the pacakage.json version.'
+  lane :bump do
+    inc_ver_and
+  end
+end
