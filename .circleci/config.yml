@@ -20,8 +20,6 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn semantic-release
-
-jobs:
   zumba:
     executor:
       name: android/default
@@ -30,7 +28,6 @@ jobs:
       - android/with-cache:
           steps:
             - run: bundle install
-
 
 workflows:
   test-build-and-publish:
