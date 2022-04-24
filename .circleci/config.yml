@@ -1,4 +1,7 @@
-version: 2.1
+version: 2.
+
+orbs:
+  android: circleci/android@0.2.0
 
 references:
   production: &production
@@ -15,6 +18,9 @@ jobs:
       name: node/default
     steps:
       - checkout
+      - run:
+        name: Install bundle
+        command: bundle install
       - node/with-cache:
           steps:
             - run: yarn install
