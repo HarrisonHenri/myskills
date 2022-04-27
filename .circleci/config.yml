@@ -20,6 +20,7 @@ jobs:
             - run: git config --global user.email "harrisonhenrisn@gmail.com"
             - run: git config --global user.name "HarrisonHenri"
             - run: yarn install
+            - run: chown $(whoami):$(whoami) -R .
             - run: yarn semantic-release
 
 workflows:
