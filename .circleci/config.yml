@@ -20,11 +20,16 @@ jobs:
             - add_ssh_keys:
               fingerprints:
                 - "f2:d9:82:2a:46:c7:7c:89:f8:e3:d2:02:15:2d:d3:ad"
-            - run: git config --global user.email "harrisonhenrisn@gmail.com"
-            - run: git config --global user.name "HarrisonHenri"
-            - run: yarn install
-            - run: yarn standard-version --release-as minor
-            - run: git push --follow-tags origin staging
+            - run:
+                command: git config --global user.email "harrisonhenrisn@gmail.com"
+            - run:
+                command: git config --global user.name "HarrisonHenri"
+            - run:
+                command: yarn install
+            - run:
+                command: yarn standard-version --release-as minor
+            - run:
+                command: git push --follow-tags origin staging
 
 workflows:
   test-build-and-publish:
