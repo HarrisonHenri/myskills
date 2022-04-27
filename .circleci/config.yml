@@ -23,7 +23,7 @@ jobs:
             - run: yarn standard-version --release-as minor
             - run: PACKAGE_VERSION=v$(node -pe "require('./package.json')['version']") && echo $PACKAGE_VERSION
             - run: git add .
-            - run: git commit -m "chore(release) [ci skip]"
+            - run: git commit -m "chore(releas) [ci skip]"
             - run: git tag $PACKAGE_VERSION
             - run: git push -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging --tags
 
