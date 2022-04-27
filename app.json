@@ -1,4 +1,7 @@
 {
   "name": "myskills",
-  "displayName": "myskills"
+  "displayName": "myskills",
+  "expo": {
+    "sdkVersion": "44.0.2"
+  }
 }

@@ -1,3 +1,5 @@
+const appData = require('./app.json');
+
 module.exports = {
   bumpFiles: [
     {
@@ -24,7 +26,9 @@ module.exports = {
     {
       filename: 'android/app/build.gradle',
       updater:
-        require('@brettdh/standard-version-expo/android/native/buildnum/code')(),
+      require('@brettdh/standard-version-expo/android/native/buildnum/code')(
+        appData.expo.sdkVersion
+      ),
     },
   ]
 };
