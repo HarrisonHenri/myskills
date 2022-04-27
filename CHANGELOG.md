@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.22.0](https://github.com/HarrisonHenri/myskills/compare/v1.15.0...v1.22.0) (2022-04-27)
+
+
+### Bug Fixes
+
+* fix pipeline ([7c6c23d](https://github.com/HarrisonHenri/myskills/commit/7c6c23d9ae1eec486ff482350f3af0702c95c1bf))
+* fix pipeline ([fa5041d](https://github.com/HarrisonHenri/myskills/commit/fa5041dba00c6e855510c5e7690eb502dac23613))
+* fix pipeline ([994909c](https://github.com/HarrisonHenri/myskills/commit/994909cbe8f29ddb26c4481494379329a56e16e2))
+* fix pipeline ([628cc4d](https://github.com/HarrisonHenri/myskills/commit/628cc4df6da94be3ce375bf0da9e80bd3a1da91c))
+* fix pipeline ([7b5e535](https://github.com/HarrisonHenri/myskills/commit/7b5e535c0c89f1400457128db62b1378b57a6451))
+* fix pipeline ([3d92bc6](https://github.com/HarrisonHenri/myskills/commit/3d92bc69c5a94e5d415f0f699af56e02a728f62b))
+* fix pipeline ([39d2a7f](https://github.com/HarrisonHenri/myskills/commit/39d2a7f95cab069f02649fbd8155decd534429eb))
+* fix pipeline ([5658afc](https://github.com/HarrisonHenri/myskills/commit/5658afcd98c3ec01d8ffa878806c64bb66b2e4ce))
+* fix pipeline ([f93c6c0](https://github.com/HarrisonHenri/myskills/commit/f93c6c07df47db4f08cabad5b255d3cb81ed384f))
+* fix pipeline ([1e7ad7c](https://github.com/HarrisonHenri/myskills/commit/1e7ad7c2c626fa90ee31258cf17118ac22ea1b3e))
+* fix pipeline ([b65b71e](https://github.com/HarrisonHenri/myskills/commit/b65b71e4e8d2888abc29dd70bc5bd0aa7603da3a))
+* fix pipeline ([8915b9e](https://github.com/HarrisonHenri/myskills/commit/8915b9e2cacc3a24dd73027144d4144eac54d170))
+* fix pipeline ([795f9e0](https://github.com/HarrisonHenri/myskills/commit/795f9e0f7a10988b84b30fb43c771d310b9cd215))
+* fix pipeline ([44b026f](https://github.com/HarrisonHenri/myskills/commit/44b026fc52b2463bcd068158fae67f45c6144ab6))
+* fix pipeline ([d587479](https://github.com/HarrisonHenri/myskills/commit/d5874796c366daec39cfd54c3cbbd73aefc5fb5f))
+
 ## [1.21.0](https://github.com/HarrisonHenri/myskills/compare/v1.15.0...v1.21.0) (2022-04-27)
 
 
