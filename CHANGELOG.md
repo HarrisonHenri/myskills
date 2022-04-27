@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/HarrisonHenri/myskills/compare/v1.15.0...v1.20.0) (2022-04-27)
+
+
+### Bug Fixes
+
+* fix pipeline ([39d2a7f](https://github.com/HarrisonHenri/myskills/commit/39d2a7f95cab069f02649fbd8155decd534429eb))
+* fix pipeline ([5658afc](https://github.com/HarrisonHenri/myskills/commit/5658afcd98c3ec01d8ffa878806c64bb66b2e4ce))
+* fix pipeline ([f93c6c0](https://github.com/HarrisonHenri/myskills/commit/f93c6c07df47db4f08cabad5b255d3cb81ed384f))
+* fix pipeline ([1e7ad7c](https://github.com/HarrisonHenri/myskills/commit/1e7ad7c2c626fa90ee31258cf17118ac22ea1b3e))
+* fix pipeline ([b65b71e](https://github.com/HarrisonHenri/myskills/commit/b65b71e4e8d2888abc29dd70bc5bd0aa7603da3a))
+* fix pipeline ([8915b9e](https://github.com/HarrisonHenri/myskills/commit/8915b9e2cacc3a24dd73027144d4144eac54d170))
+* fix pipeline ([795f9e0](https://github.com/HarrisonHenri/myskills/commit/795f9e0f7a10988b84b30fb43c771d310b9cd215))
+* fix pipeline ([44b026f](https://github.com/HarrisonHenri/myskills/commit/44b026fc52b2463bcd068158fae67f45c6144ab6))
+* fix pipeline ([d587479](https://github.com/HarrisonHenri/myskills/commit/d5874796c366daec39cfd54c3cbbd73aefc5fb5f))
+
 ## [1.19.0](https://github.com/HarrisonHenri/myskills/compare/v1.15.0...v1.19.0) (2022-04-27)
 
 
