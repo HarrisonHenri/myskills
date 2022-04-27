@@ -1,3 +1,4 @@
+#!/bin/bash
 yarn standard-version --release-as $1
 git add .
 git commit -m "chore(releas) [ci skip]"
