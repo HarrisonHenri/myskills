@@ -11,12 +11,13 @@
     "release": "yarn semantic-release && cd android && bundle exec fastlane bump"
   },
   "dependencies": {
-    "@semantic-release/git": "^10.0.1",
+    "@brettdh/standard-version-expo": "^1.1.0",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "semantic-release": "^19.0.2",
-    "standard-version": "^7.1.0",
-    "@brettdh/standard-version-expo": "^1.1.0"
+    "standard-version": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
