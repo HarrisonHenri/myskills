@@ -6,13 +6,13 @@ module.exports = {
       filename: 'package.json',
     },
     {
-      filename: 'ios/bluapp/Info.plist',
+      filename: 'ios/myskills/Info.plist',
       updater: require.resolve(
         '@brettdh/standard-version-expo/ios/native/app-version'
       ),
     },
     {
-      filename: 'ios/bluapp/Info.plist',
+      filename: 'ios/myskills/Info.plist',
       updater: require.resolve(
         '@brettdh/standard-version-expo/ios/native/buildnum/increment'
       ),
