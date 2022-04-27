@@ -25,7 +25,7 @@ jobs:
             - run: git add .
             - run: git commit -m "chore(release) [ci skip]"
             - run: git tag v$PACKAGE_VERSION
-            - run: git push -o --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
+            - run: git push -o -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git v$PACKAGE_VERSION
 
 workflows:
   test-build-and-publish:
