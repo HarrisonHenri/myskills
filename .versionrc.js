@@ -32,6 +32,7 @@ module.exports = {
     },
   ],
   skip: {
-    commit: true
+    commit: true,
+    tag: true
   }
 };
