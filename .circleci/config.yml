@@ -21,7 +21,7 @@ jobs:
             - run: git config --global user.name "HarrisonHenri"
             - run: yarn install
             - run: yarn standard-version --release-as minor
-            - run: PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g') && echo $PACKAGE_VERSION
+            - run: PACKAGE_VERSION=$(node -pe "require('./package.json')['version']") && echo $PACKAGE_VERSION
             - run: git add .
             - run: git tag -a v$PACKAGE_VERSION -m "[ci skip]"
             - run: git push -o --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
