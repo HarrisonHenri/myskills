@@ -21,7 +21,9 @@ jobs:
             - run: git config --global user.name "HarrisonHenri"
             - run: yarn install
             - run: yarn standard-version --release-as minor
-            - run: git push -o ci.skip --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
+            - run: git add .
+            - run: git c -m 'chore(release): [ci-skip]'
+            - run: git push -o --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
 
 workflows:
   test-build-and-publish:

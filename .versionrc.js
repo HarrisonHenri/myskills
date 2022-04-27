@@ -30,5 +30,8 @@ module.exports = {
         appData.expo.sdkVersion
       ),
     },
-  ]
+  ],
+  skip: {
+    commit: true
+  }
 };
