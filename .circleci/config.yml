@@ -5,10 +5,9 @@ references:
     filters:
       branches:
         only:
-          - master
+          - staging
 
 orbs:
-  android: circleci/android@0.2.0
   node: circleci/node@1.1.6
 jobs:
   test-build-and-publish:
@@ -19,22 +18,10 @@ jobs:
       - node/with-cache:
           steps:
             - run: yarn install
-            - run: yarn semantic-release
-  zumba:
-    executor:
-      name: android/android
-    steps:
-      - checkout
-      - run:
-          name: Install bundle
-          command: bundle install
+            - run: yarn standard-version --release-as minor
 
 workflows:
   test-build-and-publish:
     jobs:
-      - zumba:
-          <<: *production
       - test-build-and-publish:
           <<: *production
-          requires:
-            - zumba
