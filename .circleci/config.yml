@@ -22,7 +22,7 @@ jobs:
             - run: yarn install
             - run: yarn standard-version --release-as minor
             - run: git add .
-            - run: git c -m 'chore(release): [ci-skip]'
+            - run: git c -m \"chore(release): [ci-skip]\"
             - run: git push -o --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
 
 workflows:
