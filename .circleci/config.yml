@@ -21,7 +21,7 @@ jobs:
             - run: git config --global user.name "HarrisonHenri"
             - run: yarn install
             - run: yarn standard-version --release-as minor
-            - run: git push --follow-tags origin staging
+            - run: git push --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
 
 workflows:
   test-build-and-publish:
