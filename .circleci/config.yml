@@ -21,12 +21,11 @@ jobs:
             - run: git config --global user.name "HarrisonHenri"
             - run: yarn install
             - run: yarn standard-version --release-as minor
-            - run: PACKAGE_VERSION=$(node -pe "require('./package.json')['version']") && echo $PACKAGE_VERSION
+            - run: PACKAGE_VERSION=v$(node -pe "require('./package.json')['version']") && echo $PACKAGE_VERSION
             - run: git add .
             - run: git commit -m "chore(release) [ci skip]"
-            - run: |
-                'git tag v$PACKAGE_VERSION'
-            - run: git push -o --follow-tags -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging
+            - run: git tag $PACKAGE_VERSION
+            - run: git push -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging --tags
 
 workflows:
   test-build-and-publish:
