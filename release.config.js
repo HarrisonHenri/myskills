@@ -1,9 +1,9 @@
 module.exports = {
   branches: ["staging"],
   plugins: [
-    ["@semantic-release/npm", {
-      "npmPublish": false,
+    "@semantic-release/commit-analyzer",
+    ["@semantic-release/exec", {
+      "publishCmd": "./publish.sh ${nextRelease.version} ${nextRelease.gitTag}"
     }],
-    "@semantic-release/github"
   ],
 };
