@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.23.0](https://github.com/HarrisonHenri/myskills/compare/v1.22.0...v1.23.0) (2022-04-27)
+
+
+### Bug Fixes
+
+* fix pipeline ([cca060e](https://github.com/HarrisonHenri/myskills/commit/cca060e8d1b2089d4d7322f87db25fbb10a7223c))
+
 ## [1.22.0](https://github.com/HarrisonHenri/myskills/compare/v1.15.0...v1.22.0) (2022-04-27)
 
 
