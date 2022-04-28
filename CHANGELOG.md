@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/HarrisonHenri/myskills/compare/v1.0.0...v1.1.0) (2022-04-28)
+
+
+### Features
+
+* add feat ([2c6a67e](https://github.com/HarrisonHenri/myskills/commit/2c6a67ee4700361867df495551825bce8d585452))
+
 # 1.0.0 (2022-04-28)
 
 
