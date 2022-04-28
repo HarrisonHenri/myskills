@@ -1,5 +1,5 @@
 #!/bin/bash
-yarn standard-version --release-as $1 --verbose
+yarn standard-version -- --first-release
 git add .
-git commit -m "chore(release): $2 [ci skip]"
+git commit -m "chore(release): [ci skip]"
 git push -q https://${GITHUB_TOKEN}@github.com/HarrisonHenri/myskills.git staging --tags
