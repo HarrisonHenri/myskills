@@ -5,5 +5,10 @@ module.exports = {
     ["@semantic-release/exec", {
       "publishCmd": "./publish.sh ${nextRelease.version} ${nextRelease.gitTag}"
     }],
+    [
+      "@semantic-release/changelog", {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ]
   ],
 };
