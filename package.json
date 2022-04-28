@@ -1,6 +1,5 @@
 {
   "name": "myskills",
-  "version": "1.37.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
