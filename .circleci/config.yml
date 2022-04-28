@@ -20,7 +20,7 @@ jobs:
             - run: git config --global user.email "harrisonhenrisn@gmail.com"
             - run: git config --global user.name "HarrisonHenri"
             - run: yarn install
-            - run: yarn semantic-release
+            - run: yarn semantic-release --verbose
 
 workflows:
   test-build-and-publish:
