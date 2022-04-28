@@ -134,8 +134,8 @@ android {
         applicationId "com.myskills"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 440013700
-        versionName "1.37.0"
+        versionCode 1
+        versionName "1.0"
         
         testBuildType System.getProperty('testBuildType', 'debug')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
